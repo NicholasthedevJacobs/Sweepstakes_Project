@@ -20,7 +20,6 @@ namespace SweepstakesProject
             firstName = UserInterface.FirstName();
             lastName = UserInterface.LastName();
             emailAddress = UserInterface.Email();
-            //Contestant contestant = IUserInterface.SetContestantDetails();
             
             registrationNumber = 0;
         }

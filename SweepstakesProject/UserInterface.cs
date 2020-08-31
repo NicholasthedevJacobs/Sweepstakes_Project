@@ -37,10 +37,7 @@ namespace SweepstakesProject
             return emailAddress;
         }
 
-        public static void RegistrationNumber()
-        {
-            //perhaps make the registration number 1+ the count of users
-        }
+
        
     }
 }
