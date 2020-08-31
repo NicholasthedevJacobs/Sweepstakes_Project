@@ -42,7 +42,10 @@ namespace SweepstakesProject
         public Contestant PickWinner()
         {
             //create a RNG
-             Contestant winner = contestants[1];
+            Random random = new Random();
+            int winnerToPick = random.Next(contestants.Count);
+            Contestant winner = contestants[winnerToPick];
+            return winner;
         }
         public void PrintContestantInfo(Contestant contestant)
         {
