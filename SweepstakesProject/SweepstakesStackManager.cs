@@ -8,6 +8,17 @@ namespace SweepstakesProject
 {
     class SweepstakesStackManager
     {
+        //member variables
+        private Stack<Sweepstakes> stack;
 
+        //member methods
+        public void InsertSweepstakes(Sweepstakes sweepstakes)
+        {
+
+        }
+        public Sweepstakes GetSweepstakes()
+        {
+
+        }
     }
 }
