@@ -19,7 +19,7 @@ namespace SweepstakesProject
         }
 
         //member methods
-        public void RegisterContestant()
+        public void RegisterContestant(Contestant contestant)
         {
 
         }
@@ -27,7 +27,7 @@ namespace SweepstakesProject
         {
 
         }
-        public void PrintContestantInfo()
+        public void PrintContestantInfo(Contestant contestant)
         {
 
         }

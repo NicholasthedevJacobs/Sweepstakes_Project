@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SweepstakesProject
 {
-    static class IUserInterface
+    static class UserInterface
     {
         public static void SetContestantDetails()
         {           

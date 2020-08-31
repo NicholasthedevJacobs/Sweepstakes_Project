@@ -17,9 +17,9 @@ namespace SweepstakesProject
         //constructor
         public Contestant()
         {
-            firstName = IUserInterface.FirstName();
-            lastName = IUserInterface.LastName();
-            emailAddress = IUserInterface.Email();
+            firstName = UserInterface.FirstName();
+            lastName = UserInterface.LastName();
+            emailAddress = UserInterface.Email();
             //Contestant contestant = IUserInterface.SetContestantDetails();
             
             registrationNumber = 0;
