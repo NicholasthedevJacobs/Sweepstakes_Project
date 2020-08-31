@@ -10,6 +10,7 @@ namespace SweepstakesProject
     {
         //member variables
         string name;
+        private Dictionary<int, Contestant> contestant;
 
         //constructor
         public Sweepstakes(string name)
@@ -18,5 +19,18 @@ namespace SweepstakesProject
         }
 
         //member methods
+        public void RegisterContestant()
+        {
+
+        }
+        public Contestant PickWinner()
+        {
+
+        }
+        public void PrintContestantInfo()
+        {
+
+        }
+
     }
 }
