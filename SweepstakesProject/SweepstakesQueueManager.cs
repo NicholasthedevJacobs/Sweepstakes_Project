@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace SweepstakesProject
 {
-    class SweepstakesStackManager : ISweepStakesManager
+    class SweepstakesQueueManager : ISweepStakesManager
     {
         //member variables
-        private Stack<Sweepstakes> stack;
+        private Queue<Sweepstakes> queue;
 
         //member methods
         public void InsertSweepstakes(Sweepstakes sweepstakes)
