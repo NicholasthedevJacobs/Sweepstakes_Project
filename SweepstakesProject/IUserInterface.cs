@@ -8,25 +8,27 @@ namespace SweepstakesProject
 {
     static class IUserInterface
     {
-        public static void FirstName()
+        public static string FirstName()
         {
             Console.WriteLine("What is your first name?");
+            return Console.ReadLine();
         }
 
-        public static void LastName()
+        public static string LastName()
         {
             Console.WriteLine("What is your last name?");
+            return Console.ReadLine();
         }
 
-        public static void Email()
+        public static string Email()
         {
             Console.WriteLine("What is your email address?");
+            return Console.ReadLine();
         }
 
         public static void RegistrationNumber()
         {
-
-            Console.WriteLine();
+            //perhaps make the registration number 1+ the count of users
         }
        
     }

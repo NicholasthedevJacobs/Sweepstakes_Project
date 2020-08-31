@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SweepstakesProject
 {
-    class Contestant : IUserInterface
+    class Contestant 
     {
         //member variables
         string firstName;
@@ -15,6 +15,13 @@ namespace SweepstakesProject
         int registrationNumber;
 
         //constructor
+        public Contestant(string firstName, string lastName, string emailAddress, int registrationNumber)
+        {
+            firstName = IUserInterface.FirstName();
+            lastName = IUserInterface.LastName();
+            emailAddress = IUserInterface.Email();
+            registrationNumber = 0;
+        }
 
         //member methods
 
