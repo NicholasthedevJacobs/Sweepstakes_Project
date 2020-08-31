@@ -9,9 +9,21 @@ namespace SweepstakesProject
     class Sweepstakes
     {
         //member variables
-        string name;
+        private string name;
         private Dictionary<int, Contestant> contestants;
         //private List<Contestant> contestants1;
+
+        public string Name
+        {
+            get
+            {
+                return name;
+            }
+            set
+            {
+                name = value;
+            }
+        }
 
         //constructor
         public Sweepstakes(string name)
