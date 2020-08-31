@@ -10,6 +10,8 @@ namespace SweepstakesProject
     {
         static void Main(string[] args)
         {
+            Contestant nick = new Contestant();
+            Console.ReadLine();
         }
     }
 }

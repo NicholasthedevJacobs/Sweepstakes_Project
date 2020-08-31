@@ -15,11 +15,13 @@ namespace SweepstakesProject
         int registrationNumber;
 
         //constructor
-        public Contestant(string firstName, string lastName, string emailAddress, int registrationNumber)
+        public Contestant()
         {
             firstName = IUserInterface.FirstName();
             lastName = IUserInterface.LastName();
             emailAddress = IUserInterface.Email();
+            //Contestant contestant = IUserInterface.SetContestantDetails();
+            
             registrationNumber = 0;
         }
 
