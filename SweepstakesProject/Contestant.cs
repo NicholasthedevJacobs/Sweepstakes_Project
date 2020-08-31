@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SweepstakesProject
 {
-    class Contestant
+    class Contestant : IUserInterface
     {
         //member variables
         string firstName;

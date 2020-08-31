@@ -6,15 +6,28 @@ using System.Threading.Tasks;
 
 namespace SweepstakesProject
 {
-    public interface IUserInterface
+    static class IUserInterface
     {
-        void FirstName();
+        public static void FirstName()
+        {
+            Console.WriteLine("What is your first name?");
+        }
 
-        void LastName();
+        public static void LastName()
+        {
+            Console.WriteLine("What is your last name?");
+        }
 
-        void Email();
+        public static void Email()
+        {
+            Console.WriteLine("What is your email address?");
+        }
 
-        void RegistrationNumber();
+        public static void RegistrationNumber()
+        {
+
+            Console.WriteLine();
+        }
        
     }
 }
