@@ -11,6 +11,9 @@ namespace SweepstakesProject
         //member variables
         private Stack<Sweepstakes> stack;
 
+        //constructor
+
+
         //member methods
         public void InsertSweepstakes(Sweepstakes sweepstakes)
         {
