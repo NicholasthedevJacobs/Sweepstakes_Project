@@ -10,7 +10,12 @@ namespace SweepstakesProject
     {
         static void Main(string[] args)
         {
-            Contestant nick = new Contestant();
+            //Contestant nick = new Contestant();
+            string nick = "Nick";
+            Sweepstakes sweepstakes = new Sweepstakes(nick);
+            Contestant nicky = new Contestant();
+            sweepstakes.RegisterContestant(nicky);
+            sweepstakes.PrintContestantInfo(nicky);
             Console.ReadLine();
         }
     }

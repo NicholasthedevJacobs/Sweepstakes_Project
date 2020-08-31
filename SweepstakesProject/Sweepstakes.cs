@@ -40,8 +40,7 @@ namespace SweepstakesProject
            
         }
         public Contestant PickWinner()
-        {
-            //create a RNG
+        {          
             Random random = new Random();
             int winnerToPick = random.Next(contestants.Count);
             Contestant winner = contestants[winnerToPick];
@@ -49,7 +48,7 @@ namespace SweepstakesProject
         }
         public void PrintContestantInfo(Contestant contestant)
         {
-
+            Console.WriteLine($"First Name: {contestant.firstName}, Last Name: {contestant.lastName}, Email: {contestant.emailAddress}");                                   
         }
 
     }

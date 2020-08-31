@@ -8,14 +8,12 @@ namespace SweepstakesProject
 {
     static class UserInterface
     {
-        public static void SetContestantDetails()
-        {           
-            FirstName();
-            LastName();
-            Email();
-            
-
-        }
+        //public static string GetUserInputFor()
+        //{           
+        //    FirstName();
+        //    LastName();
+        //    Email();           
+        //}
         public static string FirstName()
         {
             Console.WriteLine("What is your first name?");
