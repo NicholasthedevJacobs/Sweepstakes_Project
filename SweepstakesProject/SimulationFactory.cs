@@ -8,7 +8,7 @@ namespace SweepstakesProject
 {
     class SimulationFactory
     {
-        public static ISweepStakesManager CreateSweepstakes(string sweepstakes)
+        public ISweepStakesManager CreateSweepstakes(string sweepstakes)
         {
             ISweepStakesManager user = null;
             switch (sweepstakes)

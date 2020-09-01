@@ -25,5 +25,7 @@ namespace SweepstakesProject
             Sweepstakes sweepstakes = new Sweepstakes(sweepstakesName);
             _manager.InsertSweepstakes(sweepstakes);           
         }
+
+       
     }
 }

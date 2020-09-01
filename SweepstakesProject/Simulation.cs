@@ -12,5 +12,11 @@ namespace SweepstakesProject
         {
             
         }
+        public string GetSweepstakesType()
+        {
+            Console.WriteLine("Which way would you like to manage your sweepstakes?  Type 'Queue' or 'Stack'.");
+            string input = Console.ReadLine();
+            return input;
+        }
     }
 }
