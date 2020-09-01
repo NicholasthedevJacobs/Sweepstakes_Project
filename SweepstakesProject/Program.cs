@@ -18,12 +18,12 @@ namespace SweepstakesProject
             //sweepstakes.PrintContestantInfo(nicky);
 
 
-            Simulation sim = new Simulation();
-            SimulationFactory factory = new SimulationFactory();
-            string type = sim.GetSweepstakesType();
-            ISweepStakesManager manager = factory.CreateSweepstakes(type);
-            MarketingFirm mf = new MarketingFirm(manager);
-            mf.CreateSweepstakes();
+            //Simulation sim = new Simulation();
+            //SimulationFactory factory = new SimulationFactory();
+            //string type = sim.GetSweepstakesType();
+            //ISweepStakesManager manager = factory.CreateSweepstakes(type);
+            //MarketingFirm mf = new MarketingFirm(manager);
+            //mf.CreateSweepstakes();
             Console.ReadLine();
         }
     }

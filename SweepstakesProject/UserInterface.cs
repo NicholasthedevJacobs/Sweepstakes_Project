@@ -14,21 +14,21 @@ namespace SweepstakesProject
         //    LastName();
         //    Email();           
         //}
-        public static string FirstName()
+        public static string GetFirstName()
         {
             Console.WriteLine("What is your first name?");
             string firstName = Console.ReadLine();
             return firstName;
         }
 
-        public static string LastName()
+        public static string GetLastName()
         {
             Console.WriteLine("What is your last name?");
             string lastName = Console.ReadLine();
             return lastName;
         }
 
-        public static string Email()
+        public static string GetEmail()
         {
             Console.WriteLine("What is your email address?");
             string emailAddress = Console.ReadLine();
